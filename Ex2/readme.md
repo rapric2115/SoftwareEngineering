@@ -5,7 +5,7 @@
 - Pull the latest upstream changes (if any)
 - Create a new folder in Ex2 --> Ex2/StudentID_FullName/
 - Commit your work to that folder
-- Open one new Pull Request for Assignment 2
+- Open one new Pull Request for Exercise 2
   
 ## Step 1: Pull the latest upstream changes (if any)
 1. git checkout master
