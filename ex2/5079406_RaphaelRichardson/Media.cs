@@ -84,7 +84,7 @@
 
     protected Media(string title, int totalDurationMinutes)
     {
-        if (string.IsNullOrWhiteSpace(title))
+        if(string.IsNullOrWhiteSpace(title))
             throw new ArgumentException("Title cannot be empty.");
 
         Title = title;

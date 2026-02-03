@@ -5,7 +5,7 @@ public class Movie : Media
     // TODO: Declare "something" to keep count of all movie objects created
     //       - Private read/write access
     //       - Increment whenever a new movie object is created
-
+   
     private static int movieCount = 0;
 
     // TODO: Declare "something" for the release year of the movie
@@ -20,7 +20,7 @@ public class Movie : Media
     private int releaseYear;
     public override int ReleaseYear
     {
-        get { return releaseYear; }
+        get {  return releaseYear; }
         protected set
         {
             if (value >= 1906)
@@ -115,11 +115,11 @@ public class Movie : Media
     //       - Set release year, media type, and director
     //       - Increment the movie counter
 
-    public Movie(
-        string title, int releaseYear,
-        string mediaType, string director,
-        int totalDurationMinutes) :
-        base(title, totalDurationMinutes)
+    public Movie (
+        string title, int releaseYear, 
+        string mediaType, string director, 
+        int totalDurationMinutes) : 
+        base (title, totalDurationMinutes)
     {
         this.ReleaseYear = releaseYear;
         this.MediaType = mediaType;
@@ -162,7 +162,7 @@ public class Movie : Media
     //       - Otherwise, display: "MOVIE: The Movie [Title] is not playing, cannot pause it!"
     //       - Prevent further overriding in child classes
 
-    public sealed override void Pause(int pauseTimeMinutes)
+        public sealed override void Pause(int pauseTimeMinutes)
     {
         if (IsPlaying)
         {
@@ -187,12 +187,11 @@ public class Movie : Media
 
     public override void Stop()
     {
-        if (IsPlaying)
+        if(IsPlaying)
         {
             base.Stop();
             Console.WriteLine($"MOVIE: Stopping the movie {Title}");
-        }
-        else
+        } else
         {
             Console.WriteLine($"MOVIE: The movie {Title} is not playing, cannot stop it.");
         }

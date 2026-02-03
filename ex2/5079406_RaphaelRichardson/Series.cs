@@ -111,7 +111,7 @@
     //       - Public read access
     //       - Private write access (can add episodes via method)
     //       - Initialize as empty list in constructor
-    
+
     private List<Episode> episodes;
 
     public Series()

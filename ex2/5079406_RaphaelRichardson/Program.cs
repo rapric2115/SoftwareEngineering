@@ -23,34 +23,34 @@ public class Program
         Movie movie2 = new Movie("Dark Crystal", 1982, "BETA", "Jim Henson", 93);
         Movie movie3 = new Movie("Labyrinth", 1986, "DVD", "Jim Henson", 101);
 
-        // -------------------------------
-        // TODO: Create Stand Up Specials
-        // -------------------------------
-        // TODO: Create "something" for a Stand Up Special with title "Killing Them Softly", release year 2000, type "STREAMING", comic "Dave Chappelle", total duration 62 minutes
-        // TODO: Create "something" for a Stand Up Special with title "Elephant in the Room", release year 2011, type "DVD", comic "Patrice O'Neal", total duration 75 minutes
-        // TODO: Create "something" for a Stand Up Special with title "I'm Telling You for the Last Time", release year 1998, type "VHS", comic "Jerry Seinfeld", total duration 67 minutes
+    // -------------------------------
+    // TODO: Create Stand Up Specials
+    // -------------------------------
+    // TODO: Create "something" for a Stand Up Special with title "Killing Them Softly", release year 2000, type "STREAMING", comic "Dave Chappelle", total duration 62 minutes
+    // TODO: Create "something" for a Stand Up Special with title "Elephant in the Room", release year 2011, type "DVD", comic "Patrice O'Neal", total duration 75 minutes
+    // TODO: Create "something" for a Stand Up Special with title "I'm Telling You for the Last Time", release year 1998, type "VHS", comic "Jerry Seinfeld", total duration 67 minutes
 
 
-        // -------------------------------
-        // TODO: Create Series and Episodes
-        // -------------------------------
-        // TODO: Create "something" for a Series with title "Deadwood", release year 2004, latest release year 2006, type "STREAMING", 3 seasons, 12 episodes per season, each episode 55 minutes
-        // TODO: Create "something" for a Series with title "The Sopranos", release year 1999, latest release year 2007, type "DVD", 6 seasons, 13 episodes per season, each episode 58 minutes
+    // -------------------------------
+    // TODO: Create Series and Episodes
+    // -------------------------------
+    // TODO: Create "something" for a Series with title "Deadwood", release year 2004, latest release year 2006, type "STREAMING", 3 seasons, 12 episodes per season, each episode 55 minutes
+    // TODO: Create "something" for a Series with title "The Sopranos", release year 1999, latest release year 2007, type "DVD", 6 seasons, 13 episodes per season, each episode 58 minutes
 
-        // TODO: Add episodes to the "Deadwood" series using nested loops
-        //       - Outer loop: seasons from 1 to number of seasons
-        //       - Inner loop: episodes from 1 to number of episodes per season
-        //       - Add a new Episode object for each combination of season and episode
+    // TODO: Add episodes to the "Deadwood" series using nested loops
+    //       - Outer loop: seasons from 1 to number of seasons
+    //       - Inner loop: episodes from 1 to number of episodes per season
+    //       - Add a new Episode object for each combination of season and episode
 
-        // TODO: Add episodes to the "The Sopranos" series using nested loops
-        //       - Outer loop: seasons from 1 to number of seasons
-        //       - Inner loop: episodes from 1 to number of episodes per season
-        //       - Add a new Episode object for each combination of season and episode
+    // TODO: Add episodes to the "The Sopranos" series using nested loops
+    //       - Outer loop: seasons from 1 to number of seasons
+    //       - Inner loop: episodes from 1 to number of episodes per season
+    //       - Add a new Episode object for each combination of season and episode
 
-        // -------------------------------
-        // TODO: Display the total number of media objects created for each media type
-        // -------------------------------
-        Console.WriteLine("\n>>> Media Counts\n");
+    // -------------------------------
+    // TODO: Display the total number of media objects created for each media type
+    // -------------------------------
+    Console.WriteLine("\n>>> Media Counts\n");
         // TODO: Display the total number of Movie objects created and the total number of all media objects
         // TODO: Display the total number of Stand Up Special objects created and the total number of all media objects
         // TODO: Display the total number of Series objects created and the total number of all media objects

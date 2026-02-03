@@ -23,7 +23,7 @@ public interface IWatchable
     // TODO: Declare "something" to store the current watch time in minutes
     //       - Public read and write access
     //       - Must be implemented in classes implementing the interface
-
+    
     int CurrentWatchTimeMinutes { get; set; }
 
     // TODO: Declare "something" to play the media
