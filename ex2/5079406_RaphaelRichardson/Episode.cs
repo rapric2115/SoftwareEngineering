@@ -18,7 +18,7 @@
         get { return seasonNumber; }
         set
         {
-            if (Series != null && value <= Series.NumberOfSeaons && value > 0)
+            if (Series != null && value <= Series.NumberOfSeasons && value > 0)
             {
                 seasonNumber = value;
             }
@@ -45,8 +45,7 @@
             {
                 episodeNumber = value;
             }
-            else
-            {
+            else { 
                 Console.WriteLine("EPISODE: Episode Number is invalid! Value not set.");
             }
         }
